@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(18, 18, 62);
+}
+ nav .left h4{
+    font-size: 22px;
+     
+  font-weight: 100vh; 
+ }
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 21px -169p
+
+}
+
+nav ul li a:hover {
+    color: rgb(200, 200, 238);
+    font-size: 1.04rem;
+
+}
+
+main hr {
+    border: 0;
+    background: #908bde;
+    height: 1.2px;
+    margin: 40px 84px;
+
+
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+
+}
+
+.firstsection>div {
+    width: 40%;
+
+}
+
+.leftsection {
+
+    font-size: 2.5rem;
+    margin: 70px 0;
+
+}
+.leftsection .buttons{
+    padding: 25px 25px;
+}
+.leftsection .btn{
+
+   padding: 12px;
+       background: #22287e;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.leftsection .btn:hover{
+    background-color: #161a4b;
+    font-size: 18px;
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 50px 0;
+
+
+}
+
+.purple {
+    color: rgb(157, 83, 226);
+}
+
+.textgrey {
+    color: grey;
+}
+
+#element {
+    color: rgb(166, 108, 220);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 64vh;
+
+}
+
+.secondsection h1 {
+    font-size: 1.8rem;
+}
+
+.secondsection .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 80px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+position: relative;
+    top: 47px;
+    width: 150px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 49px;
+    color: white;
+    width: 150px;
+    font-size: 8px;
+}
+footer{
+    background-color: #36363f;
+  text-align: center;
+
+}
+ footer .footer-right{
+    font-size: 12px;
+ }
+
+ 
+ 
